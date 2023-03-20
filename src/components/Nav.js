@@ -14,7 +14,7 @@ const Nav = ({ setLibraryStatus, libraryStatus }) => {
           className={libraryStatus ? "library-active" : ""}
           onClick={openLibraryHandler}
         >
-          Lecciones
+          Listen +
           <FontAwesomeIcon icon={faMusic}></FontAwesomeIcon>
         </button>
       </nav>
